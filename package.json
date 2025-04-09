@@ -1,0 +1,26 @@
+{
+  "name": "daraja-integration",
+  "version": "1.0.0",
+  "description": "a simple nodejs project to consume daraja api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "mpesa",
+    "safaricom",
+    "daraja",
+    "api",
+    "m-pesa",
+    "api"
+  ],
+  "author": "vintage",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9",
+    "request": "^2.88.2"
+  }
+}
